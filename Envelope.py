@@ -1,4 +1,4 @@
-from numpy import random
+from random import random
 class Envelope():
     def __init__(self, envelope_arr):
         self.money =  random.randint(100,000)
